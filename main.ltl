@@ -1,0 +1,15 @@
+// ltl-midi-parse/main.ltl
+//
+// Standard MIDI File (SMF 0/1) event-stream parser.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-midi-parse v0.1.0")
+    io::println("Standard MIDI File (SMF 0/1) event-stream parser.")
+    0
+}
